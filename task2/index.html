@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/354ec6df73.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container" class="logo">
+            <nav>
+                <h1>PORTFOLIO</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Vaishnavi</span><br>Singh</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- --------------about-------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/pic.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Welcome to my portfolio!<br>Hi, I'm Vaishnavi Singh <br> I'm a passionate web developer with a strong foundation in front-end and back-end technologies. I love creating responsive and user-friendly websites </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>B.E-Computer Science and Engineering</span><br>AARUPADAI VEEDU INSTITUTE OF TECHNOLOGY<br>CGPA - 9.3 </li>
+                        <li><span>12th</span><br>D.A.V PUBLIC SCHOOL, C.R.R.C MEDICAL UNIT GAYA BIHAR <br> Marks - 63.4</li>
+                        <li><span>10th</span><br>D.A.V PUBLIC SCHOOL, C.R.R.C MEDICAL UNIT GAYA BIHAR <br> Marks - 79.5</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------------Services-------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>HTML/CSS/JS</h2>
+                <p>Crafting responsive designs with clean HTML, styling with CSS, and enhancing interactivity with JavaScript. Committed to seamless user experiences and modern web solutions.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>REACT</h2>
+                <p>Proficient in React, a powerful JavaScript library for building user interfaces."Skilled in React, I develop dynamic, responsive web applications with a focus on user-centric experiences. Proficient in virtual DOM, state management, and component-based architecture for modern interfaces."</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python/C</h2>
+                <p>Python:
+                    Versatile, readable language with broad applications—web development, data analysis, machine learning—ideal for diverse projects.
+                    <br>
+                    C:
+                    Efficient, low-level language for system development, embedded systems—provides control over hardware resources—foundational for programming.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- --------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Morse Code Website</h3>
+                    <p>I designed a website where users select a question from a dropdown menu, submit it, and instantly receive both the Morse Code translation and the equivalent Q-Code. This interactive platform facilitates efficient communication practice. Users can explore various scenarios and decode messages effortlessly. The website promotes engagement and learning, providing a dynamic experience for those interested in Morse Code and Q-Codes, offering a practical tool for both beginners and enthusiasts in the realm of communication.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Windows Virtual Assistant</h3>
+                    <p>Developed a sophisticated virtual assistant for Windows using Python, integrating advanced AI techniques, particularly natural language processing (NLP). This project enables users to interact with their computer seamlessly through voice or text commands, enhancing user experience and providing a range of functionalities. The virtual assistant harnesses the power of AI to understand and respond to user queries, perform tasks, and provide information. This Windows-based solution is designed to make computing more intuitive and efficient, showcasing my proficiency in AI development with practical applications.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Explore Bihar Webpage</h3>
+                    <p>Explore Bihar Website:
+                        Crafted a dynamic website highlighting Bihar's tourist spots and iconic cuisine. Navigate attractions seamlessly, discover hidden gems, and savor Bihar's culinary delights through engaging content and user-friendly design.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ------------------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>vaishnavisingh0527@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>7858881674</p>
+                <div class="social-icons">
+                    <a href="https://github.com/vaishnavisingh27"><i class="fa-brands fa-github-square"></i></a>
+                    <a href="https://www.instagram.com/ivaishnaviii?igsh=aGFpZnFyZHBobDVq"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vaishnavi-singh-356b14228?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlYtZUb0eRY6VYR%2BHId2elQ%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message"rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Vaishnavi portfolio.</p>
+        </div>
+    </div>
+</div>
+
+<!-- -------------script------------- -->
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
